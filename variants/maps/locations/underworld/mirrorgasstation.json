@@ -1,0 +1,27 @@
+[
+  {
+    "name": "⛽♊Mirror Gas Station",
+    "access_rules": [
+      "@♊Mirror House/Exit to Mirror Gas Station"
+    ],
+    "sections": [
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [],
+        "item_count": 1
+      },
+      {
+        "name": "Tree Heart",
+        "access_rules": [],
+        "hosted_item": "mirrorgasstation_treeheart"
+      },
+      {
+        "name": "Ending 2",
+        "access_rules": ["mirrorgasstation_treeheart"],
+        "item_count": 1,
+        "map_locations": [{"map": "mirrorgasstation", "x": 1285, "y": 25}]
+      }
+    ],
+    "map_locations": [{"map": "mirrorgasstation", "x": 0, "y": 0}]
+  }
+]

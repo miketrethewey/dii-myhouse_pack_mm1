@@ -1,0 +1,25 @@
+{"keys_grid": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "My House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          ["card_yellow", "card_red", "card_blue"],
+          ["skull_yellow", "skull_red", "skull_blue"]
+        ]
+      }
+    },
+    {
+      "title": "Underhalls",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          ["underhalls_card_red", "underhalls_card_blue"],
+          ["", ""]
+        ]
+      }
+    }
+  ]
+}}

@@ -1,0 +1,59 @@
+{"markers_grid": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "",
+      "icon": "images/icons/thehouse.png",
+      "note": "αThe House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["first_supercharge"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/secondhouse.png",
+      "note": "βSecond House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["second_mirror", "second_sinks"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/daycare.png",
+      "note": "🚼Daycare",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["daycare_nightmareunleashed"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/mirrorgasstation.png",
+      "note": "♊Mirror Gas Station",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["mirrorgasstation_treeheart"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/items/markers/emptyhouse.png",
+      "note": "Empty House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["emptyhouse"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/items/artifacts/medication.png",
+      "note": "Hospital",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["hospital_aed"]]
+      }
+    }
+  ]
+}}

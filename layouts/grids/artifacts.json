@@ -1,0 +1,144 @@
+{"artifacts_grid": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "",
+      "icon": "images/icons/secondhouse.png",
+      "note": "βSecond House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_pop",
+            "artifact_milkshake",
+            "artifact_rubberduck"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/mirrorhouse.png",
+      "note": "♊Mirror House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_ornament",
+            "artifact_babybottle",
+            "artifact_winebottle"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/daycare.png",
+      "note": "🚼Daycare",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_baseball",
+            "artifact_crayons",
+            "artifact_snugs"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/bathhouse.png",
+      "note": "🛁Bathhouse",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["artifact_d20", "artifact_ring"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/brutalisthouse_big.png",
+      "note": "🦴Brutalist House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          ["artifact_pumpkin", "artifact_tuna"],
+          ["artifact_frisbee"]
+        ]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/airport.png",
+      "note": "✈️Airport",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["artifact_medication"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/gasstation.png",
+      "note": "⛽Gas Station",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["artifact_gamecontroller"]]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/burnedhouse.png",
+      "note": "🔥Burned House",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_teddybear",
+            "artifact_photo",
+            "artifact_book"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Normal Wall",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_baseball",
+            "artifact_frisbee",
+            "artifact_babybottle",
+            "artifact_ornament"
+          ],
+          [
+            "artifact_pop",
+            "artifact_ring",
+            "artifact_tuna",
+            "artifact_milkshake"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Mirror Wall",
+      "content": {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "artifact_snugs",
+            "artifact_pumpkin",
+            "artifact_gamecontroller",
+            "artifact_d20"
+          ],
+          [
+            "artifact_medication",
+            "artifact_winebottle",
+            "artifact_rubberduck",
+            "artifact_crayons"
+          ]
+        ]
+      }
+    }
+  ]
+}}

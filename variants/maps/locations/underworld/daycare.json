@@ -1,0 +1,32 @@
+[
+  {
+    "name": "🚼Daycare",
+    "access_rules": ["@βSecond House/Exit to Daycare"],
+    "sections": [
+      {
+        "name": "Nursery",
+        "hosted_item": "artifact_baseball"
+      },
+      {
+        "name": "Classroom",
+        "hosted_item": "artifact_crayons"
+      },
+      {
+        "name": "Ballpit: Shrek Missing",
+        "access_rules": ["artifact_crayons"],
+        "hosted_item": "daycare_nightmareunleashed"
+      },
+      {
+        "name": "Playground",
+        "access_rules": ["daycare_nightmareunleashed"],
+        "hosted_item": "artifact_snugs"
+      },
+      {
+        "name": "Exit to Second House",
+        "access_rules": ["daycare_nightmareunleashed"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "daycare-b1", "x": 0, "y": 0}]
+  }
+]

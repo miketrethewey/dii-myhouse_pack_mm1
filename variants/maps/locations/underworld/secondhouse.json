@@ -1,0 +1,95 @@
+[
+  {
+    "name": "βSecond House",
+    "access_rules": ["first_supercharge,$not_has|emptyhouse"],
+    "sections": [
+      {"name": "Kitchen", "hosted_item": "second_sinks"},
+      {
+        "name": "Yellow Skull key",
+        "hosted_item": "second_sinks",
+        "item_count": 1
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["skull_yellow"],
+        "hosted_item": "second_sinks",
+        "item_count": 1
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["skull_red"],
+        "hosted_item": "second_sinks",
+        "item_count": 1
+      },
+      {
+        "name": "Uncover Mirror",
+        "access_rules": ["skull_red"],
+        "hosted_item": "second_mirror"
+      },
+      {
+        "name": "Sitting Room",
+        "access_rules": ["second_mirror"],
+        "hosted_item": "artifact_pop"
+      },
+      {
+        "name": "Bauhaus Room",
+        "access_rules": ["artifact_pop"],
+        "hosted_item": "second_sinks",
+        "item_count": 1
+      },
+      {
+        "name": "Bathtub",
+        "access_rules": ["second_sinks:6"],
+        "hosted_item": "artifact_rubberduck"
+      },
+      {
+        "name": "Exit to Mirror Dimension",
+        "access_rules": ["second_mirror"],
+        "hosted_item": "second_sinks",
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Daycare",
+        "note": "Office",
+        "access_rules": ["artifact_babybottle"],
+        "item_count": 1
+      },
+      {
+        "name": "Return from Daycare",
+        "note": "Remote Room",
+        "access_rules": [
+          "@🚼Daycare/Exit to Second House"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Flooded House",
+        "access_rules": ["second_sinks:6"],
+        "item_count": 1
+      },
+      {
+        "name": "Return from Airport",
+        "access_rules": [
+          "@✈️Airport/Exit to Second House"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Gas Station",
+        "access_rules": ["@βSecond House/Return from Airport"],
+        "item_count": 1
+      },
+      {
+        "name": "Return from Gas Station",
+        "access_rules": ["@βSecond House/Exit to Gas Station"],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Smooth Underhalls",
+        "access_rules": ["skull_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "secondhouse-1f", "x": 0, "y": 0}]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hospital",
+    "access_rules": ["$not_has|hospital_aed,$not_has|emptyhouse"],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "sections": [
+          {
+            "name": "Room 1 Key",
+            "hosted_item": "artifact_hospitalkey"
+          }
+        ],
+        "map_locations": [{"map": "hospital", "x": 130, "y": 160}]
+      },
+      {
+        "name": "Flatliner's Room",
+        "access_rules": ["artifact_hospitalkey"],
+        "sections": [{"name": "AED", "hosted_item": "hospital_aed"}],
+        "map_locations": [{"map": "hospital", "x": 115, "y": 15}]
+      }
+    ]
+  }
+]

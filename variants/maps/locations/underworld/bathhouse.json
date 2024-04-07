@@ -1,0 +1,25 @@
+[
+  {
+    "name": "🛁Bathhouse",
+    "access_rules": [
+      "@βSecond House/Exit to Flooded House"
+    ],
+    "sections": [
+      {
+        "name": "Locker Rooms",
+        "note": "Backpack",
+        "item_count": 1
+      },
+      {"name": "Pool", "hosted_item": "artifact_d20"},
+      {
+        "name": "Shattered Path",
+        "hosted_item": "artifact_ring"
+      },
+      {
+        "name": "Exit to Brutalist House",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "bathhouse", "x": 0, "y": 0}]
+  }
+]

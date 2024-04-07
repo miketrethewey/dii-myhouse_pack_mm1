@@ -1,0 +1,10 @@
+{"tracker_default": {
+  "type": "array",
+  "orientation": "horizontal",
+  "content": [
+    {"type": "layout", "key": "weapons_grid"},
+    {"type": "layout", "key": "keys_grid"},
+    {"type": "layout", "key": "artifacts_grid"},
+    {"type": "layout", "key": "markers_grid"}
+  ]
+}}

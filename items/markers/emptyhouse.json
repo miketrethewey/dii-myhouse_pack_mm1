@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Empty House",
+    "type": "consumable",
+    "img": "images/items/markers/emptyhouse.png",
+    "max_quantity": 1,
+    "codes": "emptyhouse"
+  }
+]

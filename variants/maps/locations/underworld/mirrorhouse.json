@@ -1,0 +1,42 @@
+[
+  {
+    "name": "♊Mirror House",
+    "access_rules": [
+      "@βSecond House/Exit to Mirror Dimension"
+    ],
+    "sections": [
+      {
+        "name": "Attic: Mirror",
+        "hosted_item": "artifact_ornament"
+      },
+      {
+        "name": "Attic: Crib",
+        "hosted_item": "artifact_babybottle"
+      },
+      {
+        "name": "Kitchen",
+        "hosted_item": "artifact_winebottle"
+      },
+      {
+        "name": "Exit to Mirror Gas Station",
+        "access_rules": [
+          "@βSecond House/Return from Gas Station"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Return from Mirror Gas Station Passage",
+        "access_rules": [
+          "@♊Mirror House/Exit to Mirror Gas Station"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to sllahrednU",
+        "access_rules": ["skull_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "mirrorhouse-1f", "x": 0, "y": 0}]
+  }
+]

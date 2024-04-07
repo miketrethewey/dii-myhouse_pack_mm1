@@ -1,0 +1,19 @@
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "My House",
+      "content": {
+        "type": "layout",
+        "key": "tabs_myhouse"
+      }
+    },
+    {
+      "title": "Underhalls",
+      "content": {
+        "type": "layout",
+        "key": "tabs_underhalls"
+      }
+    }
+  ]
+}}

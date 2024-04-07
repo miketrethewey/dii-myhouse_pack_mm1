@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Supercharge",
+    "type": "toggle",
+    "img": "images/items/markers/first_supercharge.png",
+    "codes": "first_supercharge"
+  }
+]

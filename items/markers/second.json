@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mirror",
+    "type": "toggle",
+    "img": "images/items/markers/second_mirror.png",
+    "codes": "second_mirror"
+  },
+  {
+    "name": "Sinks",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "img": "images/items/markers/second_sinks.png",
+    "codes": "second_sinks"
+  }
+]

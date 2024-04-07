@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Blue Keycard",
+    "type": "consumable",
+    "loop": true,
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "img": "images/items/keys/cards/blue.png",
+    "codes": "card_blue"
+  },
+  {
+    "name": "Yellow Keycard",
+    "type": "consumable",
+    "loop": true,
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "img": "images/items/keys/cards/yellow.png",
+    "codes": "card_yellow"
+  },
+  {
+    "name": "Red Keycard",
+    "type": "consumable",
+    "loop": true,
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "img": "images/items/keys/cards/red.png",
+    "codes": "card_red"
+  },
+  {
+    "name": "Underhalls: Red Keycard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/cards/red.png",
+    "codes": "underhalls_card_red"
+  },
+  {
+    "name": "Underhalls: Blue Keycard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/cards/blue.png",
+    "codes": "underhalls_card_blue"
+  },
+  {
+    "name": "Blue Skull key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/skulls/blue.png",
+    "codes": "skull_blue"
+  },
+  {
+    "name": "Yellow Skull key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/skulls/yellow.png",
+    "codes": "skull_yellow"
+  },
+  {
+    "name": "Red Skull key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/skulls/red.png",
+    "codes": "skull_red"
+  }
+]

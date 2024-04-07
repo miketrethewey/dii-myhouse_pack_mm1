@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ΩEmpty House",
+    "access_rules": [
+      "@✈️Airport/Exit to Empty House",
+      "emptyhouse"
+    ],
+    "sections": [
+      {
+        "name": "Ending 1",
+        "access_rules": [],
+        "item_count": 1,
+        "map_locations": [{"map": "emptyhouse-1f", "x": 95, "y": 75}]
+      },
+      {
+        "name": "Exit to Smooth Underhalls",
+        "access_rules": ["skull_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "emptyhouse-1f", "x": 0, "y": 0}]
+  }
+]

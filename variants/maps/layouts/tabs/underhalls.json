@@ -1,0 +1,29 @@
+{"tabs_underhalls": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Underhalls",
+      "icon": "images/icons/thehouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["underhalls"]
+      }
+    },
+    {
+      "title": "Smooth Underhalls",
+      "icon": "images/icons/secondhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["underhalls_smooth"]
+      }
+    },
+    {
+      "title": "sllahrednU",
+      "icon": "images/icons/mirrorhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["sllahrednu"]
+      }
+    }
+  ]
+}}

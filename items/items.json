@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Fist",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/items_only/images/items/inventory/fist.png",
+    "codes": "fist"
+  },
+  {
+    "name": "Chainsaw",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/items_only/images/items/inventory/chainsaw.png",
+    "codes": "chainsaw"
+  },
+  {
+    "name": "Melee",
+    "type": "composite_toggle",
+    "item_left": "fist",
+    "item_right": "chainsaw",
+    "allow_disabled": false,
+    "codes": "melee,chainsaw,fist",
+    "images": [
+      {
+        "img": "images/items/inventory/fist.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "images/items/inventory/chainsaw.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "images/items/inventory/melee.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "images/items/inventory/chainsaw.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
+  },
+  {
+    "name": "Pistol",
+    "type": "static",
+    "img": "images/items/inventory/pistol.png",
+    "codes": "pistol"
+  },
+  {
+    "name": "Shotgun",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/shotgun.png",
+    "codes": "shotgun"
+  },
+  {
+    "name": "Super Shotgun",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/supershotgun.png",
+    "codes": "shotgun,supershotgun"
+  },
+  {
+    "name": "Shotguns",
+    "type": "composite_toggle",
+    "item_left": "shotgun",
+    "item_right": "supershotgun",
+    "codes": "shotguns",
+    "images": [
+      {
+        "img": "images/items/inventory/shotgun.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "images/items/inventory/supershotgun.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "images/items/inventory/shotguns.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "images/items/inventory/shotgun.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
+  },
+  {
+    "name": "Chaingun",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/chaingun.png",
+    "codes": "chaingun"
+  },
+  {
+    "name": "Rocket Launcher",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/rocketlauncher.png",
+    "codes": "rocketlauncher"
+  },
+  {
+    "name": "Plasma Gun",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/plasmagun.png",
+    "codes": "plasmagun"
+  },
+  {
+    "name": "BFG9000",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/inventory/bfg9000.png",
+    "codes": "bfg9000"
+  }
+]

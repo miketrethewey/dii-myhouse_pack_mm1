@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Underhalls",
+    "sections": [
+      {"name": "Super Shotgun", "item_count": 1},
+      {"name": "Mega Armor", "item_count": 1},
+      {"name": "Red Keycard", "item_count": 1},
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["underhalls_card_red"],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to My House",
+        "access_rules": ["underhalls_card_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "underhalls",
+        "x": 0,
+        "y": 0,
+        "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+      },
+      {
+        "map": "underhalls_smooth",
+        "x": 0,
+        "y": 0,
+        "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+      }
+    ]
+  }
+]

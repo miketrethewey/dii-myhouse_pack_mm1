@@ -1,0 +1,28 @@
+[
+  {
+    "name": "✈️Airport",
+    "access_rules": ["@Exit to Airport/Item"],
+    "sections": [
+      {
+        "name": "Women's Restroom",
+        "note": "BFG",
+        "item_count": 1
+      },
+      {
+        "name": "Medication",
+        "hosted_item": "artifact_medication"
+      },
+      {
+        "name": "Exit to Second House",
+        "access_rules": ["artifact:14"],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Empty House",
+        "access_rules": ["$not_has|artifact|14"],
+        "hosted_item": "emptyhouse"
+      }
+    ],
+    "map_locations": [{"map": "airport-1f", "x": 0, "y": 0}]
+  }
+]

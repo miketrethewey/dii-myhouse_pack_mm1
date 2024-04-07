@@ -1,0 +1,52 @@
+{"tracker_default": {
+  "type": "container",
+  "content": [
+    {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Weapons",
+              "content": {
+                "type": "layout",
+                "key": "weapons_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Keys",
+              "content": {
+                "type": "layout",
+                "key": "keys_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Artifacts",
+              "content": {
+                "type": "layout",
+                "key": "artifacts_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Markers",
+              "content": {
+                "type": "layout",
+                "key": "markers_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [{"type": "layout", "key": "tabbed_maps"}]
+        }
+      ]
+    }
+  ]
+}}

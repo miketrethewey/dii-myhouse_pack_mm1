@@ -1,0 +1,30 @@
+[
+  {
+    "name": "αThe House",
+    "access_rules": ["$not_has|first_supercharge"],
+    "sections": [
+      {"name": "Chainsaw", "item_count": 1},
+      {"name": "Yellow Keycard", "item_count": 1},
+      {
+        "name": "Red Keycard",
+        "access_rules": ["card_yellow"],
+        "item_count": 1
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["card_red"],
+        "item_count": 1
+      },
+      {
+        "name": "House Supercharge",
+        "hosted_item": "first_supercharge"
+      },
+      {
+        "name": "Exit to Underhalls",
+        "access_rules": ["card_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [{"map": "thehouse-1f", "x": 0, "y": 0}]
+  }
+]

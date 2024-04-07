@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Pop",
+    "type": "toggle",
+    "note": "Second House",
+    "loop": true,
+    "img": "images/items/artifacts/pop.png",
+    "codes": "artifact,artifact_pop"
+  },
+  {
+    "name": "Milkshake",
+    "type": "toggle",
+    "note": "Second House",
+    "loop": true,
+    "img": "images/items/artifacts/milkshake.png",
+    "codes": "artifact,artifact_milkshake"
+  },
+  {
+    "name": "Wedding Ring",
+    "type": "toggle",
+    "note": "Bathhouse",
+    "loop": true,
+    "img": "images/items/artifacts/ring.png",
+    "codes": "artifact,artifact_ring"
+  },
+  {
+    "name": "Tuna Can",
+    "type": "toggle",
+    "note": "BIG Brutalist House",
+    "loop": true,
+    "img": "images/items/artifacts/tuna.png",
+    "codes": "artifact,artifact_tuna"
+  },
+  {
+    "name": "Frisbee",
+    "type": "toggle",
+    "note": "small Brutalist House",
+    "loop": true,
+    "img": "images/items/artifacts/frisbee.png",
+    "codes": "artifact,artifact_frisbee"
+  },
+  {
+    "name": "Blue Christmas Ornament",
+    "type": "toggle",
+    "note": "Mirror House",
+    "loop": true,
+    "img": "images/items/artifacts/ornament.png",
+    "codes": "artifact,artifact_ornament"
+  },
+  {
+    "name": "Baby Bottle",
+    "type": "toggle",
+    "note": "Mirror House",
+    "loop": true,
+    "img": "images/items/artifacts/babybottle.png",
+    "codes": "artifact,artifact_babybottle"
+  },
+  {
+    "name": "Baseball",
+    "type": "toggle",
+    "note": "Daycare",
+    "loop": true,
+    "img": "images/items/artifacts/baseball.png",
+    "codes": "artifact,artifact_baseball"
+  },
+  {
+    "name": "Crayons",
+    "type": "toggle",
+    "note": "Daycare",
+    "loop": true,
+    "img": "images/items/artifacts/crayons.png",
+    "codes": "artifact,artifact_crayons"
+  },
+  {
+    "name": "Rubber Duck",
+    "type": "toggle",
+    "note": "Second House",
+    "loop": true,
+    "img": "images/items/artifacts/rubberduck.png",
+    "codes": "artifact,artifact_rubberduck"
+  },
+  {
+    "name": "Medication",
+    "type": "toggle",
+    "note": "Airport",
+    "loop": true,
+    "img": "images/items/artifacts/medication.png",
+    "codes": "artifact,artifact_medication"
+  },
+  {
+    "name": "Video Game Controller",
+    "type": "toggle",
+    "note": "Mirror Gas Station",
+    "loop": true,
+    "img": "images/items/artifacts/gamecontroller.png",
+    "codes": "artifact,artifact_gamecontroller"
+  },
+  {
+    "name": "Teddy Bear",
+    "type": "toggle",
+    "note": "Burned House",
+    "loop": true,
+    "img": "images/items/artifacts/teddybear.png",
+    "codes": "burned_artifact,artifact_teddybear"
+  },
+  {
+    "name": "Pumpkin",
+    "type": "toggle",
+    "note": "BIG Brutalist House",
+    "loop": true,
+    "img": "images/items/artifacts/pumpkin.png",
+    "codes": "artifact,artifact_pumpkin"
+  },
+  {
+    "name": "Wine Bottle",
+    "type": "toggle",
+    "note": "Mirror House",
+    "loop": true,
+    "img": "images/items/artifacts/winebottle.png",
+    "codes": "artifact,artifact_winebottle"
+  },
+  {
+    "name": "D20",
+    "type": "toggle",
+    "note": "Bathhouse",
+    "loop": true,
+    "img": "images/items/artifacts/d20.png",
+    "codes": "artifact,artifact_d20"
+  },
+  {
+    "name": "Snugs",
+    "type": "toggle",
+    "note": "Daycare",
+    "loop": true,
+    "img": "images/items/artifacts/snugs.png",
+    "codes": "artifact,artifact_snugs"
+  },
+  {
+    "name": "Photograph",
+    "type": "toggle",
+    "note": "Burned House",
+    "loop": true,
+    "img": "images/items/artifacts/photo.png",
+    "codes": "burned_artifact,artifact_photo"
+  },
+  {
+    "name": "Book",
+    "type": "toggle",
+    "note": "Burned House",
+    "loop": true,
+    "img": "images/items/artifacts/book.png",
+    "codes": "burned_artifact,artifact_book"
+  },
+  {
+    "name": "Room 1 Key",
+    "type": "toggle",
+    "note": "Hospital",
+    "loop": true,
+    "img": "images/items/artifacts/hospitalkey.png",
+    "codes": "hospital_artifact,artifact_hospitalkey"
+  }
+]

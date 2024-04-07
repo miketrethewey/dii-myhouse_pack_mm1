@@ -1,0 +1,76 @@
+[
+  {
+    "name": "☠️Brutalist House",
+    "access_rules": [
+      "@🛁Bathhouse/Exit to Brutalist House"
+    ],
+    "children": [
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "name": "Item",
+            "access_rules": ["card_blue:2"],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "brutalisthouse_big", "x": 255, "y": 170}
+        ]
+      },
+      {
+        "name": "Doghouse",
+        "sections": [
+          {
+            "name": "Frisbee",
+            "hosted_item": "artifact_frisbee"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "brutalisthouse_small",
+            "x": 225,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "Porch",
+        "sections": [
+          {
+            "name": "Pumpkin Rick",
+            "hosted_item": "artifact_pumpkin"
+          }
+        ],
+        "map_locations": [
+          {"map": "brutalisthouse_big", "x": 250, "y": 270}
+        ]
+      },
+      {
+        "name": "Vent above Cerberus",
+        "sections": [
+          {
+            "name": "Tuna Can",
+            "hosted_item": "artifact_tuna"
+          }
+        ],
+        "map_locations": [
+          {"map": "brutalisthouse_big", "x": 110, "y": 265}
+        ]
+      },
+      {
+        "name": "Exit to Airport",
+        "sections": [
+          {
+            "name": "Item",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "brutalisthouse_big", "x": 230, "y": 170}
+        ]
+      }
+    ]
+  }
+]

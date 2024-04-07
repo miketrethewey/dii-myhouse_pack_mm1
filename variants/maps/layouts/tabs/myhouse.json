@@ -1,0 +1,125 @@
+{"tabs_myhouse": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "The House",
+      "icon": "images/icons/thehouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["thehouse-1f", "thehouse-b1"]
+      }
+    },
+    {
+      "title": "Second House",
+      "icon": "images/icons/secondhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["secondhouse-1f", "secondhouse-b1"]
+      }
+    },
+    {
+      "title": "Mirror House",
+      "icon": "images/icons/mirrorhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["mirrorhouse-1f", "mirrorhouse-b1"]
+      }
+    },
+    {
+      "title": "Daycare",
+      "icon": "images/icons/daycare.png",
+      "content": {
+        "type": "map",
+        "maps": ["daycare-b1", "daycare-outside"]
+      }
+    },
+    {
+      "title": "Flooded House",
+      "icon": "images/icons/floodedhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["floodedhouse-b1"]
+      }
+    },
+    {
+      "title": "Bathhouse",
+      "icon": "images/icons/bathhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["bathhouse"]
+      }
+    },
+    {
+      "title": "Brutalist House",
+      "icon": "images/icons/brutalisthouse_big.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "BIG",
+            "icon": "images/icons/brutalisthouse_big.png",
+            "content": {
+              "type": "map",
+              "maps": ["brutalisthouse_big"]
+            }
+          },
+          {
+            "title": "small",
+            "icon": "images/icons/brutalisthouse_small.png",
+            "content": {
+              "type": "map",
+              "maps": ["brutalisthouse_small"]
+            }
+          },
+          {
+            "title": "Between",
+            "content": {
+              "type": "map",
+              "maps": ["brutalisthouse_between"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Airport",
+      "icon": "images/icons/airport.png",
+      "content": {
+        "type": "map",
+        "maps": ["airport-1f", "airport-plane"]
+      }
+    },
+    {
+      "title": "Gas Station",
+      "icon": "images/icons/gasstation.png",
+      "content": {
+        "type": "map",
+        "maps": ["gasstation"]
+      }
+    },
+    {
+      "title": "Mirror Gas Station",
+      "icon": "images/icons/mirrorgasstation.png",
+      "content": {
+        "type": "map",
+        "maps": ["mirrorgasstation"]
+      }
+    },
+    {
+      "title": "Empty House",
+      "icon": "images/items/markers/emptyhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["emptyhouse-1f", "emptyhouse-b1"]
+      }
+    },
+    {
+      "title": "Hospital",
+      "icon": "images/items/artifacts/medication.png",
+      "content": {
+        "type": "map",
+        "maps": ["hospital"]
+      }
+    }
+  ]
+}}

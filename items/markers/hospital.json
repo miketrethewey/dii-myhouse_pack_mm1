@@ -1,0 +1,9 @@
+[
+  {
+    "name": "AED",
+    "type": "consumable",
+    "img": "images/items/markers/hospital_aed.png",
+    "max_quantity": 1,
+    "codes": "hospital_aed"
+  }
+]
