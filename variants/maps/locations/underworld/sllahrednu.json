@@ -1,0 +1,28 @@
+[
+  {
+    "name": "sllahrednU",
+    "sections": [
+      {"name": "Super Shotgun", "item_count": 1},
+      {"name": "Mega Armor", "item_count": 1},
+      {"name": "Red Keycard", "item_count": 1},
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["sllahrednu_card_red"],
+        "item_count": 1
+      },
+      {
+        "name": "Exit to Second House",
+        "access_rules": ["sllahrednu_card_blue"],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sllahrednu",
+        "x": 0,
+        "y": 0,
+        "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+      }
+    ]
+  }
+]

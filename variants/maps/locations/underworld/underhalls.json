@@ -11,7 +11,7 @@
         "item_count": 1
       },
       {
-        "name": "Exit to My House",
+        "name": "Exit to The House",
         "access_rules": ["underhalls_card_blue"],
         "item_count": 1
       }

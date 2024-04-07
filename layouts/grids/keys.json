@@ -17,7 +17,7 @@
         "type": "itemgrid",
         "rows": [
           ["underhalls_card_red", "underhalls_card_blue"],
-          ["", ""]
+          ["sllahrednu_card_red", "sllahrednu_card_blue"]
         ]
       }
     }

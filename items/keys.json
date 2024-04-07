@@ -41,6 +41,20 @@
     "codes": "underhalls_card_blue"
   },
   {
+    "name": "sllahrednU: Red Keycard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/sdrac/red.png",
+    "codes": "sllahrednu_card_red"
+  },
+  {
+    "name": "sllahrednU: Blue Keycard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/sdrac/blue.png",
+    "codes": "sllahrednu_card_blue"
+  },
+  {
     "name": "Blue Skull key",
     "type": "toggle",
     "loop": true,

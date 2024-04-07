@@ -35,6 +35,11 @@
         "name": "Exit to sllahrednU",
         "access_rules": ["skull_blue"],
         "item_count": 1
+      },
+      {
+        "name": "Return from sllahrednU",
+        "access_rules": ["sllahrednu_card_blue"],
+        "item_count": 1
       }
     ],
     "map_locations": [{"map": "mirrorhouse-1f", "x": 0, "y": 0}]
