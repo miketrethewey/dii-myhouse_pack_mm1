@@ -1,4 +1,96 @@
 {"tracker_broadcast": {
-  "type": "layout",
-  "key": "tracker_default"
+  "type": "array",
+  "orientation": "horizontal",
+  "content": [
+    {"type": "layout", "key": "weapons_grid"},
+    {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "itemgrid",
+          "rows": [
+            ["card_yellow", "card_red", "card_blue"],
+            ["skull_yellow", "skull_red", "skull_blue"],
+            ["underhalls_card_red", "underhalls_card_blue"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "itemgrid",
+              "rows": [
+                [
+                  "artifact_baseball",
+                  "artifact_frisbee",
+                  "artifact_babybottle",
+                  "artifact_ornament"
+                ],
+                [
+                  "artifact_pop",
+                  "artifact_ring",
+                  "artifact_tuna",
+                  "artifact_milkshake"
+                ]
+              ]
+            },
+            {
+              "type": "itemgrid",
+              "rows": [
+                [
+                  "artifact_snugs",
+                  "artifact_pumpkin",
+                  "artifact_gamecontroller",
+                  "artifact_d20"
+                ],
+                [
+                  "artifact_medication",
+                  "artifact_winebottle",
+                  "artifact_rubberduck",
+                  "artifact_crayons"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "rows": [
+            [
+              "artifact_teddybear",
+              "artifact_photo",
+              "artifact_book",
+              "ending1",
+              "ending2",
+              "ending3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "itemgrid",
+      "rows": [
+        [
+          "first_supercharge",
+          "second_mirror",
+          "second_sinks"
+        ],
+        [
+          "daycare_nightmareunleashed",
+          "mirrorgasstation_treeheart",
+          "emptyhouse"
+        ],
+        ["hospital_aed"]
+      ]
+    }
+  ]
 }}

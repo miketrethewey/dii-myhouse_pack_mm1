@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ending 1",
+    "type": "consumable",
+    "max_quantity": 1,
+    "img": "images/items/markers/emptyhouse.png",
+    "codes": "ending,ending1"
+  },
+  {
+    "name": "Ending 2",
+    "type": "consumable",
+    "max_quantity": 1,
+    "img": "images/items/markers/ending2.png",
+    "codes": "ending,ending2"
+  },
+  {
+    "name": "Ending 3",
+    "type": "consumable",
+    "max_quantity": 1,
+    "img": "images/items/markers/mirrorgasstation_treeheart.png",
+    "codes": "ending,ending3"
+  }
+]

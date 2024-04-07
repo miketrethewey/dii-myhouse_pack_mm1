@@ -15,6 +15,7 @@ Tracker:AddItems("items/markers/daycare.json")
 Tracker:AddItems("items/markers/mirrorgasstation.json")
 Tracker:AddItems("items/markers/emptyhouse.json")
 Tracker:AddItems("items/markers/hospital.json")
+Tracker:AddItems("items/markers/endings.json")
 print("")
 
 -- Maps
