@@ -3,14 +3,14 @@
     "name": "Fist",
     "type": "toggle",
     "loop": true,
-    "img": "variants/items_only/images/items/inventory/fist.png",
+    "img": "images/items/inventory/fist.png",
     "codes": "fist"
   },
   {
     "name": "Chainsaw",
     "type": "toggle",
     "loop": true,
-    "img": "variants/items_only/images/items/inventory/chainsaw.png",
+    "img": "images/items/inventory/chainsaw.png",
     "codes": "chainsaw"
   },
   {

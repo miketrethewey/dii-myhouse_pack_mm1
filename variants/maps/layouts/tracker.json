@@ -39,6 +39,13 @@
                 "type": "layout",
                 "key": "markers_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins"
+              }
             }
           ]
         },

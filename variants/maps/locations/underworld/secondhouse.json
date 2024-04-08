@@ -2,52 +2,107 @@
   {
     "name": "βSecond House",
     "access_rules": ["first_supercharge,$not_has|emptyhouse"],
+    "children": [
+      {
+        "name": "Attic",
+        "access_rules": ["skull_red"],
+        "sections": [
+          {
+            "name": "Blue Skull key",
+            "hosted_item": "skull_blue"
+          },
+          {
+            "name": "Uncover Mirror",
+            "hosted_item": "second_mirror"
+          }
+        ],
+        "map_locations": [{"map": "secondhouse-2f", "x": 10, "y": 20}]
+      },
+      {
+        "name": "Upstairs",
+        "children": [
+          {
+            "name": "Kitchen",
+            "sections": [{"name": "Sink", "hosted_item": "second_sinks"}],
+            "map_locations": [{"map": "secondhouse-1f", "x": 125, "y": 110}]
+          },
+          {
+            "name": "Ducky Bathroom",
+            "sections": [
+              {
+                "name": "Yellow Skull key",
+                "hosted_item": "skull_yellow"
+              },
+              {"name": "Sink", "hosted_item": "second_sinks"},
+              {
+                "name": "Bathtub",
+                "access_rules": ["second_sinks:6"],
+                "hosted_item": "artifact_rubberduck"
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-1f", "x": 85, "y": 50}]
+          },
+          {
+            "name": "Laundry Room",
+            "sections": [{"name": "Sink", "hosted_item": "second_sinks"}],
+            "map_locations": [{"map": "secondhouse-1f", "x": 130, "y": 65}]
+          },
+          {
+            "name": "Mirror Dimension Bathroom",
+            "sections": [
+              {
+                "name": "Exit to Mirror Dimension",
+                "access_rules": ["second_mirror"],
+                "item_count": 1
+              },
+              {"name": "Sink", "hosted_item": "second_sinks"}
+            ],
+            "map_locations": [{"map": "secondhouse-1f", "x": 110, "y": 50}]
+          }
+        ]
+      },
+      {
+        "name": "Impossible Upstairs",
+        "children": [
+          {
+            "name": "Sitting Room",
+            "access_rules": ["second_mirror"],
+            "sections": [{"name": "Pop", "hosted_item": "artifact_pop"}],
+            "map_locations": [{"map": "secondhouse-1x", "x": 80, "y": 70}]
+          },
+          {
+            "name": "Bauhaus Room",
+            "access_rules": ["artifact_pop"],
+            "sections": [
+              {"name": "Sink", "hosted_item": "second_sinks"},
+              {
+                "name": "Milkshake",
+                "hosted_item": "artifact_milkshake"
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-1x", "x": 140, "y": 70}]
+          }
+        ]
+      },
+      {
+        "name": "Downstairs",
+        "children": [
+          {
+            "name": "Red Key Bathroom",
+            "access_rules": ["skull_yellow"],
+            "sections": [
+              {
+                "name": "Red Skull key",
+                "hosted_item": "skull_red"
+              },
+              {"name": "Sink", "hosted_item": "second_sinks"}
+            ],
+            "map_locations": [{"map": "secondhouse-b1", "x": 110, "y": 45}]
+          }
+        ]
+      }
+    ],
     "sections": [
-      {"name": "Kitchen", "hosted_item": "second_sinks"},
-      {
-        "name": "Yellow Skull key",
-        "hosted_item": "second_sinks",
-        "item_count": 1
-      },
-      {
-        "name": "Red Skull key",
-        "access_rules": ["skull_yellow"],
-        "hosted_item": "second_sinks",
-        "item_count": 1
-      },
-      {
-        "name": "Blue Skull key",
-        "access_rules": ["skull_red"],
-        "hosted_item": "second_sinks",
-        "item_count": 1
-      },
-      {
-        "name": "Uncover Mirror",
-        "access_rules": ["skull_red"],
-        "hosted_item": "second_mirror"
-      },
-      {
-        "name": "Sitting Room",
-        "access_rules": ["second_mirror"],
-        "hosted_item": "artifact_pop"
-      },
-      {
-        "name": "Bauhaus Room",
-        "access_rules": ["artifact_pop"],
-        "hosted_item": "second_sinks",
-        "item_count": 1
-      },
-      {
-        "name": "Bathtub",
-        "access_rules": ["second_sinks:6"],
-        "hosted_item": "artifact_rubberduck"
-      },
-      {
-        "name": "Exit to Mirror Dimension",
-        "access_rules": ["second_mirror"],
-        "hosted_item": "second_sinks",
-        "item_count": 1
-      },
       {
         "name": "Exit to Daycare",
         "note": "Office",

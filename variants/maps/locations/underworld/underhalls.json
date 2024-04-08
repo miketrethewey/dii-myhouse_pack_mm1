@@ -1,33 +1,136 @@
 [
   {
     "name": "Underhalls",
-    "sections": [
-      {"name": "Super Shotgun", "item_count": 1},
-      {"name": "Mega Armor", "item_count": 1},
-      {"name": "Red Keycard", "item_count": 1},
+    "children": [
+      {
+        "name": "MAP02 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [],
+        "sections": [{"name": "Level Start", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "size": 20,
+            "x": 235,
+            "y": 20,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "size": 20,
+            "x": 235,
+            "y": 20,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [],
+        "sections": [{"name": "Item", "hosted_item": "supershotgun"}],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "x": 455,
+            "y": 230,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "x": 455,
+            "y": 230,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "x": 230,
+            "y": 430,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "x": 230,
+            "y": 430,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
+      },
       {
         "name": "Blue Keycard",
         "access_rules": ["underhalls_card_red"],
-        "item_count": 1
+        "sections": [
+          {
+            "name": "Item",
+            "hosted_item": "underhalls_card_blue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "x": 200,
+            "y": 370,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "x": 200,
+            "y": 370,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
       },
       {
-        "name": "Exit to The House",
+        "name": "Red Keycard",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Item",
+            "hosted_item": "underhalls_card_red"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "x": 265,
+            "y": 380,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "x": 265,
+            "y": 380,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
+      },
+      {
+        "name": "MAP02 Exit",
         "access_rules": ["underhalls_card_blue"],
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "underhalls",
-        "x": 0,
-        "y": 0,
-        "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
-      },
-      {
-        "map": "underhalls_smooth",
-        "x": 0,
-        "y": 0,
-        "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "underhalls",
+            "size": 20,
+            "x": 170,
+            "y": 110,
+            "restrict_visibility_rules": ["$not_has|first_supercharge,card_blue"]
+          },
+          {
+            "map": "underhalls_smooth",
+            "size": 20,
+            "x": 170,
+            "y": 110,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue"]
+          }
+        ]
       }
     ]
   }

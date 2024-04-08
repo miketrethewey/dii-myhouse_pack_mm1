@@ -1,13 +1,13 @@
 [
   {
     "name": "thehouse-1f",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/thehouse-1f.png"
   },
   {
     "name": "thehouse-b1",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/thehouse-b1.png"
   },
@@ -30,26 +30,44 @@
     "img": "variants/maps/images/maps/sllahrednu.png"
   },
   {
-    "name": "secondhouse-1f",
-    "location_size": 20,
+    "name": "secondhouse-2f",
+    "location_size": 12,
     "location_border_thickness": 1,
-    "img": "variants/maps/images/maps/thehouse-1f.png"
+    "img": "variants/maps/images/maps/secondhouse-2f.png"
+  },
+  {
+    "name": "secondhouse-1x",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/secondhouse-1x.png"
+  },
+  {
+    "name": "secondhouse-1f",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/secondhouse-1f.png"
   },
   {
     "name": "secondhouse-b1",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/thehouse-b1.png"
   },
   {
+    "name": "mirrorhouse-2f",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/mirrorhouse-2f.png"
+  },
+  {
     "name": "mirrorhouse-1f",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/mirrorhouse-1f.png"
   },
   {
     "name": "mirrorhouse-b1",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/mirrorhouse-b1.png"
   },
@@ -67,7 +85,7 @@
   },
   {
     "name": "floodedhouse-b1",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/thehouse-b1.png"
   },
@@ -121,13 +139,13 @@
   },
   {
     "name": "emptyhouse-1f",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
-    "img": "variants/maps/images/maps/thehouse-1f.png"
+    "img": "variants/maps/images/maps/secondhouse-1f.png"
   },
   {
     "name": "emptyhouse-b1",
-    "location_size": 20,
+    "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/maps/images/maps/thehouse-b1.png"
   },

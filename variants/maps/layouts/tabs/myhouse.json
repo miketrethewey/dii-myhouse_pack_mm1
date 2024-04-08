@@ -14,7 +14,12 @@
       "icon": "images/icons/secondhouse.png",
       "content": {
         "type": "map",
-        "maps": ["secondhouse-1f", "secondhouse-b1"]
+        "maps": [
+          "secondhouse-2f",
+          "secondhouse-1x",
+          "secondhouse-1f",
+          "secondhouse-b1"
+        ]
       }
     },
     {
@@ -22,7 +27,11 @@
       "icon": "images/icons/mirrorhouse.png",
       "content": {
         "type": "map",
-        "maps": ["mirrorhouse-1f", "mirrorhouse-b1"]
+        "maps": [
+          "mirrorhouse-2f",
+          "mirrorhouse-1f",
+          "mirrorhouse-b1"
+        ]
       }
     },
     {

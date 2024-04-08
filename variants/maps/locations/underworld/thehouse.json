@@ -5,43 +5,79 @@
       {
         "name": "Within",
         "access_rules": ["$not_has|first_supercharge"],
-        "sections": [
-          {"name": "Chainsaw", "item_count": 1},
-          {"name": "Yellow Keycard", "item_count": 1},
+        "children": [
+          {
+            "name": "Chainsaw",
+            "sections": [{"name": "Item", "hosted_item": "chainsaw"}],
+            "map_locations": [{"map": "thehouse-1f", "x": 200, "y": 60}]
+          },
+          {
+            "name": "Yellow Keycard",
+            "sections": [{"name": "Item", "hosted_item": "card_yellow"}],
+            "map_locations": [{"map": "thehouse-1f", "x": 85, "y": 50}]
+          },
           {
             "name": "Red Keycard",
-            "access_rules": ["card_yellow"],
-            "item_count": 1
+            "sections": [
+              {
+                "name": "Item",
+                "access_rules": ["card_yellow"],
+                "hosted_item": "card_red"
+              }
+            ],
+            "map_locations": [{"map": "thehouse-b1", "x": 110, "y": 45}]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["card_red"],
-            "item_count": 1
+            "sections": [
+              {
+                "name": "Item",
+                "access_rules": ["card_red"],
+                "hosted_item": "card_blue"
+              }
+            ],
+            "map_locations": [{"map": "thehouse-1f", "x": 140, "y": 70}]
           },
           {
             "name": "House Supercharge",
-            "access_rules": ["card_yellow"],
-            "hosted_item": "first_supercharge"
+            "sections": [
+              {
+                "name": "Item",
+                "access_rules": ["card_yellow"],
+                "hosted_item": "first_supercharge"
+              }
+            ],
+            "map_locations": [{"map": "thehouse-1f", "x": 45, "y": 125}]
           },
           {
             "name": "Exit to Underhalls",
-            "access_rules": ["card_blue"],
-            "item_count": 1
+            "sections": [
+              {
+                "name": "Item",
+                "access_rules": ["card_blue"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "thehouse-1f", "x": 200, "y": 160}]
           }
         ],
         "map_locations": [{"map": "thehouse-1f", "x": 0, "y": 0}]
       },
       {
-        "name": "Return",
-        "access_rules": ["underhalls_card_blue"],
+        "name": "Spawn",
         "sections": [
           {
-            "name": "Return from Underhalls",
+            "name": "Initial Spawn",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Return from Underhalls",
+            "access_rules": ["underhalls_card_blue"],
             "item_count": 1
           }
         ],
-        "map_locations": [{"map": "thehouse-1f", "x": 24, "y": 0}]
+        "map_locations": [{"map": "thehouse-1f", "x": 185, "y": 125}]
       }
     ]
   }
