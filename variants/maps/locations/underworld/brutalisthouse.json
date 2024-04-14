@@ -1,9 +1,7 @@
 [
   {
     "name": "☠️Brutalist House",
-    "access_rules": [
-      "@🛁Bathhouse/Exit to Brutalist House"
-    ],
+    "access_rules": ["@Ducky Bathroom/Exit to Flooded House"],
     "children": [
       {
         "name": "Plasma Gun",

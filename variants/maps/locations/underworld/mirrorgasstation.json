@@ -1,9 +1,7 @@
 [
   {
     "name": "⛽♊Mirror Gas Station",
-    "access_rules": [
-      "@♊Mirror House/Exit to Mirror Gas Station"
-    ],
+    "access_rules": ["@Mirror Passage/Exit to Mirror Gas Station"],
     "sections": [
       {
         "name": "Rocket Launcher",

@@ -2,27 +2,36 @@
   {
     "name": "✈️Airport",
     "access_rules": ["@Exit to Airport/Item"],
-    "sections": [
+    "children": [
       {
         "name": "Women's Restroom",
-        "note": "BFG",
-        "item_count": 1
+        "sections": [
+          {"name": "BFG", "item_count": 1},
+          {
+            "name": "Medication",
+            "hosted_item": "artifact_medication"
+          }
+        ],
+        "map_locations": [{"map": "airport-1f", "x": 150, "y": 95}]
       },
       {
-        "name": "Medication",
-        "hosted_item": "artifact_medication"
-      },
-      {
-        "name": "Exit to Second House",
-        "access_rules": ["artifact:14"],
-        "item_count": 1
-      },
-      {
-        "name": "Exit to Empty House",
-        "access_rules": ["$not_has|artifact|14"],
-        "hosted_item": "emptyhouse"
+        "name": "Emergency Exit",
+        "sections": [
+          {
+            "name": "Exit to Second House",
+            "access_rules": ["artifact:14"],
+            "visibility_rules": ["artifact:14"],
+            "item_count": 1
+          },
+          {
+            "name": "Exit to Empty House",
+            "access_rules": ["$not_has|artifact|14"],
+            "visibility_rules": ["$not_has|artifact|14"],
+            "hosted_item": "emptyhouse"
+          }
+        ],
+        "map_locations": [{"map": "airport-plane", "x": 115, "y": 90}]
       }
-    ],
-    "map_locations": [{"map": "airport-1f", "x": 0, "y": 0}]
+    ]
   }
 ]

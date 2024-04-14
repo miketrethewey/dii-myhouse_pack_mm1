@@ -1,15 +1,13 @@
 [
   {
     "name": "🌊Flooded House",
-    "access_rules": [
-      "@βSecond House/Exit to Flooded House"
-    ],
+    "access_rules": ["@Ducky Bathroom/Exit to Flooded House"],
     "sections": [
       {
         "name": "Basement: Get stuck in loop",
         "item_count": 1
       }
     ],
-    "map_locations": [{"map": "floodedhouse-b1", "x": 0, "y": 0}]
+    "map_locations": [{"map": "floodedhouse-b1", "x": 100, "y": 60}]
   }
 ]

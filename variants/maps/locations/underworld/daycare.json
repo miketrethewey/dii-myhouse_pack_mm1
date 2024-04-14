@@ -1,32 +1,57 @@
 [
   {
     "name": "🚼Daycare",
-    "access_rules": ["@βSecond House/Exit to Daycare"],
-    "sections": [
+    "access_rules": ["@Office/Exit to Daycare"],
+    "children": [
       {
         "name": "Nursery",
-        "hosted_item": "artifact_baseball"
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Baseball",
+            "hosted_item": "artifact_baseball"
+          }
+        ],
+        "map_locations": [{"map": "daycare-b1", "x": 80, "y": 35}]
       },
       {
         "name": "Classroom",
-        "hosted_item": "artifact_crayons"
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crayons",
+            "hosted_item": "artifact_crayons"
+          }
+        ],
+        "map_locations": [{"map": "daycare-b1", "x": 135, "y": 30}]
       },
       {
-        "name": "Ballpit: Shrek Missing",
+        "name": "Ballpit Room",
         "access_rules": ["artifact_crayons"],
-        "hosted_item": "daycare_nightmareunleashed"
+        "sections": [
+          {
+            "name": "Shrek Missing",
+            "hosted_item": "daycare_nightmareunleashed"
+          }
+        ],
+        "map_locations": [{"map": "daycare-b1", "x": 110, "y": 120}]
       },
       {
         "name": "Playground",
         "access_rules": ["daycare_nightmareunleashed"],
-        "hosted_item": "artifact_snugs"
+        "sections": [
+          {"name": "Snugs", "hosted_item": "artifact_snugs"}
+        ],
+        "map_locations": [{"map": "daycare-outside", "x": 160, "y": 100}]
       },
       {
-        "name": "Exit to Second House",
+        "name": "Passage Back to Daycare",
         "access_rules": ["daycare_nightmareunleashed"],
-        "item_count": 1
+        "sections": [
+          {"name": "Exit to Second House", "item_count": 1}
+        ],
+        "map_locations": [{"map": "daycare-outside", "x": 10, "y": 100}]
       }
-    ],
-    "map_locations": [{"map": "daycare-b1", "x": 0, "y": 0}]
+    ]
   }
 ]

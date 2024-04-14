@@ -4,44 +4,71 @@
     "access_rules": [
       "@Mirror Dimension Bathroom/Exit to Mirror Dimension"
     ],
-    "sections": [
+    "children": [
       {
-        "name": "Attic: Mirror",
-        "hosted_item": "artifact_ornament"
-      },
-      {
-        "name": "Attic: Crib",
-        "hosted_item": "artifact_babybottle"
+        "name": "Attic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mirror",
+            "hosted_item": "artifact_ornament"
+          },
+          {
+            "name": "Crib",
+            "hosted_item": "artifact_babybottle"
+          }
+        ],
+        "map_locations": [{"map": "mirrorhouse-2f", "x": 15, "y": 15}]
       },
       {
         "name": "Kitchen",
-        "hosted_item": "artifact_winebottle"
-      },
-      {
-        "name": "Exit to Mirror Gas Station",
-        "access_rules": [
-          "@βSecond House/Return from Gas Station"
+        "sections": [
+          {
+            "name": "Counter",
+            "hosted_item": "artifact_winebottle"
+          }
         ],
-        "item_count": 1
+        "map_locations": [{"map": "mirrorhouse-1f", "x": 115, "y": 110}]
       },
       {
-        "name": "Return from Mirror Gas Station Passage",
-        "access_rules": [
-          "@♊Mirror House/Exit to Mirror Gas Station"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Exit to sllahrednU",
-        "access_rules": ["skull_blue"],
-        "item_count": 1
-      },
-      {
-        "name": "Return from sllahrednU",
-        "access_rules": ["sllahrednu_card_blue"],
-        "item_count": 1
+        "name": "Outside",
+        "children": [
+          {
+            "name": "Mirror Passage",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Exit to Mirror Gas Station",
+                "access_rules": ["@Passage/Return from Gas Station"],
+                "item_count": 1
+              },
+              {
+                "name": "Return from Mirror Gas Station Passage",
+                "access_rules": ["@Mirror Passage/Exit to Mirror Gas Station"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "mirrorhouse-1f", "x": 225, "y": 80}]
+          },
+          {
+            "name": "Exit to sllahrednU",
+            "access_rules": ["skull_blue"],
+            "sections": [{"name": "Exit", "item_count": 1}],
+            "map_locations": [{"map": "mirrorhouse-1f", "x": 50, "y": 160}]
+          },
+          {
+            "name": "Spawn",
+            "sections": [
+              {
+                "name": "Return from sllahrednU",
+                "access_rules": ["sllahrednu_card_blue"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "mirrorhouse-1f", "x": 50, "y": 125}]
+          }
+        ]
       }
-    ],
-    "map_locations": [{"map": "mirrorhouse-1f", "x": 0, "y": 0}]
+    ]
   }
 ]

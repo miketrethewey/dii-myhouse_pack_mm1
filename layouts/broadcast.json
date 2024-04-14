@@ -12,7 +12,12 @@
           "rows": [
             ["card_yellow", "card_red", "card_blue"],
             ["skull_yellow", "skull_red", "skull_blue"],
-            ["underhalls_card_red", "underhalls_card_blue"]
+            [
+              "underhalls_card_red",
+              "underhalls_card_blue",
+              "sllahrednu_card_red",
+              "sllahrednu_card_blue"
+            ]
           ]
         }
       ]

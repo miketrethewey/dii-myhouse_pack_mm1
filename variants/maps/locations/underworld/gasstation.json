@@ -1,7 +1,7 @@
 [
   {
     "name": "⛽Gas Station",
-    "access_rules": ["@βSecond House/Exit to Gas Station"],
+    "access_rules": ["@Passage/Exit to Gas Station"],
     "sections": [
       {
         "name": "Video Game Controller",

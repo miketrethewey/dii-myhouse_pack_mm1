@@ -27,6 +27,17 @@
             "map_locations": [{"map": "secondhouse-1f", "x": 125, "y": 110}]
           },
           {
+            "name": "Ducky Bedroom",
+            "sections": [
+              {
+                "name": "Return from Airport",
+                "access_rules": ["@Emergency Exit/Exit to Second House"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-1f", "x": 90, "y": 70}]
+          },
+          {
             "name": "Ducky Bathroom",
             "sections": [
               {
@@ -38,6 +49,11 @@
                 "name": "Bathtub",
                 "access_rules": ["second_sinks:6"],
                 "hosted_item": "artifact_rubberduck"
+              },
+              {
+                "name": "Exit to Flooded House",
+                "access_rules": ["second_sinks:6"],
+                "item_count": 1
               }
             ],
             "map_locations": [{"map": "secondhouse-1f", "x": 85, "y": 50}]
@@ -98,53 +114,62 @@
               {"name": "Sink", "hosted_item": "second_sinks"}
             ],
             "map_locations": [{"map": "secondhouse-b1", "x": 110, "y": 45}]
+          },
+          {
+            "name": "Office",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Exit to Daycare",
+                "access_rules": ["artifact_babybottle"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-b1", "x": 80, "y": 70}]
+          },
+          {
+            "name": "Bedroom",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Return from Daycare",
+                "note": "Remote Room",
+                "access_rules": ["@Passage Back to Daycare/Exit to Second House"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-b1", "x": 140, "y": 60}]
+          }
+        ]
+      },
+      {
+        "name": "Outside",
+        "children": [
+          {
+            "name": "Passage",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Exit to Gas Station",
+                "access_rules": ["@Ducky Bedroom/Return from Airport"],
+                "item_count": 1
+              },
+              {
+                "name": "Return from Gas Station",
+                "access_rules": ["@Passage/Exit to Gas Station"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-1f", "x": 20, "y": 80}]
+          },
+          {
+            "name": "Exit to Smooth Underhalls",
+            "access_rules": ["skull_blue"],
+            "sections": [{"name": "Exit", "item_count": 1}],
+            "map_locations": [{"map": "secondhouse-1f", "x": 200, "y": 160}]
           }
         ]
       }
-    ],
-    "sections": [
-      {
-        "name": "Exit to Daycare",
-        "note": "Office",
-        "access_rules": ["artifact_babybottle"],
-        "item_count": 1
-      },
-      {
-        "name": "Return from Daycare",
-        "note": "Remote Room",
-        "access_rules": [
-          "@🚼Daycare/Exit to Second House"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Exit to Flooded House",
-        "access_rules": ["second_sinks:6"],
-        "item_count": 1
-      },
-      {
-        "name": "Return from Airport",
-        "access_rules": [
-          "@✈️Airport/Exit to Second House"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Exit to Gas Station",
-        "access_rules": ["@βSecond House/Return from Airport"],
-        "item_count": 1
-      },
-      {
-        "name": "Return from Gas Station",
-        "access_rules": ["@βSecond House/Exit to Gas Station"],
-        "item_count": 1
-      },
-      {
-        "name": "Exit to Smooth Underhalls",
-        "access_rules": ["skull_blue"],
-        "item_count": 1
-      }
-    ],
-    "map_locations": [{"map": "secondhouse-1f", "x": 0, "y": 0}]
+    ]
   }
 ]
