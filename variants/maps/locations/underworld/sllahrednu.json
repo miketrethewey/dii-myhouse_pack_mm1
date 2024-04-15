@@ -4,14 +4,17 @@
     "sections": [
       {"name": "Super Shotgun", "item_count": 1},
       {"name": "Mega Armor", "item_count": 1},
-      {"name": "Red Keycard", "item_count": 1},
+      {
+        "name": "Red Keycard",
+        "hosted_item": "sllahrednu_card_red"
+      },
       {
         "name": "Blue Keycard",
         "access_rules": ["sllahrednu_card_red"],
-        "item_count": 1
+        "hosted_item": "sllahrednu_card_blue"
       },
       {
-        "name": "Exit to Second House",
+        "name": "Exit to Mirror House",
         "access_rules": ["sllahrednu_card_blue"],
         "item_count": 1
       }

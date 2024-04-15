@@ -11,6 +11,7 @@ Tracker:AddItems("items/artifacts.json")
 -- Markers
 Tracker:AddItems("items/markers/house.json")
 Tracker:AddItems("items/markers/second.json")
+Tracker:AddItems("items/markers/mirrorhouse.json")
 Tracker:AddItems("items/markers/daycare.json")
 Tracker:AddItems("items/markers/mirrorgasstation.json")
 Tracker:AddItems("items/markers/emptyhouse.json")

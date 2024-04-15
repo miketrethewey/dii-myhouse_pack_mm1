@@ -74,7 +74,7 @@
           {
             "name": "Return from Underhalls",
             "access_rules": ["underhalls_card_blue"],
-            "item_count": 1
+            "hosted_item": "underhalls_exit"
           }
         ],
         "map_locations": [{"map": "thehouse-1f", "x": 185, "y": 125}]

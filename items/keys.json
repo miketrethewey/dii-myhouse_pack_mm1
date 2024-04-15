@@ -3,8 +3,6 @@
     "name": "Blue Keycard",
     "type": "consumable",
     "loop": true,
-    "min_quantity": 0,
-    "max_quantity": 2,
     "img": "images/items/keys/cards/blue.png",
     "codes": "card_blue"
   },
@@ -12,8 +10,6 @@
     "name": "Yellow Keycard",
     "type": "consumable",
     "loop": true,
-    "min_quantity": 0,
-    "max_quantity": 2,
     "img": "images/items/keys/cards/yellow.png",
     "codes": "card_yellow"
   },
@@ -21,8 +17,6 @@
     "name": "Red Keycard",
     "type": "consumable",
     "loop": true,
-    "min_quantity": 0,
-    "max_quantity": 2,
     "img": "images/items/keys/cards/red.png",
     "codes": "card_red"
   },

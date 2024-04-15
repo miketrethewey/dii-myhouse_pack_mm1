@@ -12,5 +12,11 @@
     "max_quantity": 6,
     "img": "images/items/markers/second_sinks.png",
     "codes": "second_sinks"
+  },
+  {
+    "name": "Return from Smooth Underhalls",
+    "type": "consumable",
+    "img": "images/items/keys/demon/orange.png",
+    "codes": "underhalls_smooth_exit"
   }
 ]

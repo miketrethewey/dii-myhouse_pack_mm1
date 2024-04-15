@@ -9,6 +9,7 @@
         "sections": [
           {
             "name": "Blue Skull key",
+            "note": "Upon collection, outside doors vanish",
             "hosted_item": "skull_blue"
           },
           {
@@ -163,7 +164,19 @@
             "map_locations": [{"map": "secondhouse-1f", "x": 20, "y": 80}]
           },
           {
+            "name": "Spawn",
+            "sections": [
+              {
+                "name": "Return from Smooth Underhalls",
+                "access_rules": ["underhalls_card_blue"],
+                "hosted_item": "underhalls_smooth_exit"
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-1f", "x": 185, "y": 125}]
+          },
+          {
             "name": "Exit to Smooth Underhalls",
+            "note": "After outside doors have returned",
             "access_rules": ["skull_blue"],
             "sections": [{"name": "Exit", "item_count": 1}],
             "map_locations": [{"map": "secondhouse-1f", "x": 200, "y": 160}]

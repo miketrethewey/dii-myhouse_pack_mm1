@@ -62,7 +62,7 @@
               {
                 "name": "Return from sllahrednU",
                 "access_rules": ["sllahrednu_card_blue"],
-                "item_count": 1
+                "hosted_item": "sllahrednu_exit"
               }
             ],
             "map_locations": [{"map": "mirrorhouse-1f", "x": 50, "y": 125}]

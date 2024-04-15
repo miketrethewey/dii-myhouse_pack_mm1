@@ -4,5 +4,11 @@
     "type": "toggle",
     "img": "images/items/markers/first_supercharge.png",
     "codes": "first_supercharge"
+  },
+  {
+    "name": "Return from Underhalls",
+    "type": "consumable",
+    "img": "images/items/keys/demon/cyan.png",
+    "codes": "underhalls_exit"
   }
 ]

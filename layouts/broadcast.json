@@ -17,6 +17,12 @@
               "underhalls_card_blue",
               "sllahrednu_card_red",
               "sllahrednu_card_blue"
+            ],
+            [
+              "underhalls_exit",
+              "underhalls_smooth_exit",
+              "",
+              "sllahrednu_exit"
             ]
           ]
         }
