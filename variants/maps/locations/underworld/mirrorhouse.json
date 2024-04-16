@@ -39,7 +39,7 @@
             "sections": [
               {
                 "name": "Exit to Mirror Gas Station",
-                "access_rules": ["@Passage/Return from Gas Station"],
+                "access_rules": ["@Passage/Return from Gas Station Passage"],
                 "item_count": 1
               },
               {

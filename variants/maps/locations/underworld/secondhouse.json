@@ -72,6 +72,11 @@
                 "access_rules": ["second_mirror"],
                 "item_count": 1
               },
+              {
+                "name": "Return from Gas Station Bathroom",
+                "access_rules": ["@Passage/Exit to Gas Station"],
+                "item_count": 1
+              },
               {"name": "Sink", "hosted_item": "second_sinks"}
             ],
             "map_locations": [{"map": "secondhouse-1f", "x": 110, "y": 50}]
@@ -156,7 +161,7 @@
                 "item_count": 1
               },
               {
-                "name": "Return from Gas Station",
+                "name": "Return from Gas Station Passage",
                 "access_rules": ["@Passage/Exit to Gas Station"],
                 "item_count": 1
               }
@@ -166,6 +171,11 @@
           {
             "name": "Spawn",
             "sections": [
+              {
+                "name": "Arrive from First House",
+                "access_rules": ["first_supercharge"],
+                "item_count": 1
+              },
               {
                 "name": "Return from Smooth Underhalls",
                 "access_rules": ["underhalls_card_blue"],

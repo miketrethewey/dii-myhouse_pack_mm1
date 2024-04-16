@@ -24,6 +24,13 @@
         "type": "map",
         "maps": ["sllahrednu"]
       }
+    },
+    {
+      "title": "Allderhalls",
+      "content": {
+        "type": "map",
+        "maps": ["underhalls", "underhalls_smooth", "sllahrednu"]
+      }
     }
   ]
 }}

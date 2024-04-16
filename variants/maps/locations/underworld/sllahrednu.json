@@ -1,30 +1,98 @@
 [
   {
-    "name": "sllahrednU",
-    "sections": [
-      {"name": "Super Shotgun", "item_count": 1},
-      {"name": "Mega Armor", "item_count": 1},
+    "name": "Underhalls",
+    "children": [
       {
-        "name": "Red Keycard",
-        "hosted_item": "sllahrednu_card_red"
+        "name": "MAP02 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [],
+        "sections": [{"name": "Level Start", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "size": 20,
+            "x": 235,
+            "y": 20,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [],
+        "sections": [{"name": "Item", "hosted_item": "supershotgun"}],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "x": 20,
+            "y": 230,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "x": 250,
+            "y": 430,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
       },
       {
         "name": "Blue Keycard",
         "access_rules": ["sllahrednu_card_red"],
-        "hosted_item": "sllahrednu_card_blue"
+        "sections": [
+          {
+            "name": "Item",
+            "hosted_item": "sllahrednu_card_blue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "x": 270,
+            "y": 370,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
       },
       {
-        "name": "Exit to Mirror House",
-        "access_rules": ["sllahrednu_card_blue"],
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
+        "name": "Red Keycard",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Item",
+            "hosted_item": "sllahrednu_card_red"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "x": 215,
+            "y": 380,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
+      },
       {
-        "map": "sllahrednu",
-        "x": 0,
-        "y": 0,
-        "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+        "name": "MAP02 Exit",
+        "access_rules": ["sllahrednu_card_blue"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "sllahrednu",
+            "size": 20,
+            "x": 310,
+            "y": 110,
+            "restrict_visibility_rules": ["first_supercharge,skull_blue,second_mirror"]
+          }
+        ]
       }
     ]
   }

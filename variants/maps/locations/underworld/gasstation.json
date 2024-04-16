@@ -2,23 +2,35 @@
   {
     "name": "⛽Gas Station",
     "access_rules": ["@Passage/Exit to Gas Station"],
-    "sections": [
+    "children": [
       {
-        "name": "Video Game Controller",
-        "hosted_item": "artifact_gamecontroller"
-      },
-      {
-        "name": "Exit to Second House",
-        "access_rules": [],
-        "item_count": 1
-      },
-      {
-        "name": "Ending 3",
-        "access_rules": ["mirrorgasstation_treeheart"],
-        "hosted_item": "ending3",
+        "name": "Tree",
+        "sections": [
+          {
+            "name": "Passage",
+            "access_rules": ["mirrorgasstation_treeheart"],
+            "hosted_item": "ending3"
+          }
+        ],
         "map_locations": [{"map": "gasstation", "x": 95, "y": 75}]
+      },
+      {
+        "name": "Closet",
+        "sections": [
+          {
+            "name": "Video Game Controller",
+            "hosted_item": "artifact_gamecontroller"
+          }
+        ],
+        "map_locations": [{"map": "gasstation", "x": 710, "y": 325}]
+      },
+      {
+        "name": "Bathroom",
+        "sections": [
+          {"name": "Exit to Second House", "item_count": 1}
+        ],
+        "map_locations": [{"map": "gasstation", "x": 750, "y": 330}]
       }
-    ],
-    "map_locations": [{"map": "gasstation", "x": 0, "y": 0}]
+    ]
   }
 ]

@@ -6,7 +6,7 @@
       {
         "name": "Women's Restroom",
         "sections": [
-          {"name": "BFG", "item_count": 1},
+          {"name": "BFG", "hosted_item": "bfg9000"},
           {
             "name": "Medication",
             "hosted_item": "artifact_medication"

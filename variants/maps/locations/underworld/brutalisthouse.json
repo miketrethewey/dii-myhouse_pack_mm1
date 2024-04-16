@@ -4,12 +4,12 @@
     "access_rules": ["@Ducky Bathroom/Exit to Flooded House"],
     "children": [
       {
-        "name": "Plasma Gun",
+        "name": "Ammo Closet",
         "sections": [
           {
-            "name": "Item",
+            "name": "Plasma Gun",
             "access_rules": ["card_blue:2"],
-            "item_count": 1
+            "hosted_item": "plasmagun"
           }
         ],
         "map_locations": [

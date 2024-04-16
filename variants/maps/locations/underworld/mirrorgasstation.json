@@ -2,24 +2,33 @@
   {
     "name": "⛽♊Mirror Gas Station",
     "access_rules": ["@Mirror Passage/Exit to Mirror Gas Station"],
-    "sections": [
+    "children": [
       {
-        "name": "Rocket Launcher",
-        "access_rules": [],
-        "item_count": 1
+        "name": "Tree",
+        "sections": [
+          {
+            "name": "Use Tree",
+            "access_rules": [],
+            "hosted_item": "mirrorgasstation_treeheart"
+          },
+          {
+            "name": "Ending 2",
+            "access_rules": ["mirrorgasstation_treeheart"],
+            "hosted_item": "ending2"
+          }
+        ],
+        "map_locations": [{"map": "mirrorgasstation", "x": 1300, "y": 80}]
       },
       {
-        "name": "Tree Heart",
-        "access_rules": [],
-        "hosted_item": "mirrorgasstation_treeheart"
-      },
-      {
-        "name": "Ending 2",
-        "access_rules": ["mirrorgasstation_treeheart"],
-        "hosted_item": "ending2",
-        "map_locations": [{"map": "mirrorgasstation", "x": 1285, "y": 25}]
+        "name": "Closet",
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "hosted_item": "rocketlauncher"
+          }
+        ],
+        "map_locations": [{"map": "mirrorgasstation", "x": 685, "y": 330}]
       }
-    ],
-    "map_locations": [{"map": "mirrorgasstation", "x": 0, "y": 0}]
+    ]
   }
 ]
