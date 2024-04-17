@@ -1,0 +1,17 @@
+# Initial House
+Flat roof
+Chainsaw in garage
+Entering Initial House creates First House
+
+# First House
+Pointed roof
+Keycards
+Keycard exit to Underhalls
+
+# Second House
+Skull keys
+Skull key exit to Smooth Underhalls
+Obtaining Blue Skull key removes doors to Outside & activates Escape in Furnace Room
+Approaching Front Door after obtaining Blue Skull key opens passage to Sitting Room
+Obtaining Pop from Sitting Room opens passage to Bauhaus Room
+Obtaining Milkshake removes door to Sitting Room, slides Bookcase slightly and starts spark sound from behind Bookcase

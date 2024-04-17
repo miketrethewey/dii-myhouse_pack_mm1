@@ -52,6 +52,7 @@ if variant == "maps" then
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/thehouse.json")
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/underhalls.json")
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/secondhouse.json")
+    Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/burnedhouse.json")
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/mirrorhouse.json")
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/sllahrednu.json")
     Tracker:AddLocations("variants/" .. variant .. "/locations/underworld/daycare.json")

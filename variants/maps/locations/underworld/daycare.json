@@ -5,7 +5,6 @@
     "children": [
       {
         "name": "Nursery",
-        "access_rules": [],
         "sections": [
           {
             "name": "Baseball",
@@ -16,7 +15,6 @@
       },
       {
         "name": "Classroom",
-        "access_rules": [],
         "sections": [
           {
             "name": "Crayons",

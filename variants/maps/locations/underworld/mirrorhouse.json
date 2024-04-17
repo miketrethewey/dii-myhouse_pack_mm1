@@ -7,7 +7,6 @@
     "children": [
       {
         "name": "Attic",
-        "access_rules": [],
         "sections": [
           {
             "name": "Mirror",
@@ -35,11 +34,10 @@
         "children": [
           {
             "name": "Mirror Passage",
-            "access_rules": [],
             "sections": [
               {
                 "name": "Exit to Mirror Gas Station",
-                "access_rules": ["@Passage/Return from Gas Station Passage"],
+                "access_rules": ["$artifactCheck|mirrorgasstation"],
                 "item_count": 1
               },
               {

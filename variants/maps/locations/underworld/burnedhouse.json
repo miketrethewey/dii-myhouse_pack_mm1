@@ -1,0 +1,58 @@
+[
+  {
+    "name": "🔥Burned House",
+    "access_rules": ["@Bookcase Passage/Exit to Burned House"],
+    "children": [
+      {
+        "name": "Within",
+        "children": [
+          {
+            "name": "Photograph",
+            "sections": [
+              {"name": "Item", "hosted_item": "artifact_photo"}
+            ],
+            "map_locations": [{"map": "burnedhouse-1f", "x": 95, "y": 40}]
+          },
+          {
+            "name": "Book",
+            "sections": [{"name": "Item", "hosted_item": "artifact_book"}],
+            "map_locations": [{"map": "burnedhouse-1f", "x": 80, "y": 80}]
+          },
+          {
+            "name": "Teddy Bear",
+            "sections": [
+              {
+                "name": "Item",
+                "hosted_item": "artifact_teddybear"
+              }
+            ],
+            "map_locations": [{"map": "burnedhouse-1f", "x": 105, "y": 35}]
+          },
+          {
+            "name": "Furnace Room",
+            "access_rules": [
+              "artifact_book,artifact_photo,artifact_teddybear"
+            ],
+            "sections": [
+              {
+                "name": "Exit to Brutalist House",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "burnedhouse-b1", "x": 135, "y": 75}]
+          }
+        ]
+      },
+      {
+        "name": "Spawn",
+        "sections": [
+          {
+            "name": "Arrive from Second House",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [{"map": "burnedhouse-b1", "x": 160, "y": 110}]
+      }
+    ]
+  }
+]

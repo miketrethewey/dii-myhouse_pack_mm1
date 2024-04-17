@@ -1,7 +1,10 @@
 [
   {
     "name": "☠️Brutalist House",
-    "access_rules": ["@Ducky Bathroom/Exit to Flooded House"],
+    "access_rules": [
+      "@Ducky Bathroom/Exit to Flooded House",
+      "@Furnace Room/Exit to Brutalist House"
+    ],
     "children": [
       {
         "name": "Ammo Closet",
@@ -57,14 +60,19 @@
         ]
       },
       {
-        "name": "Exit to Airport",
-        "sections": [
+        "name": "Arrive from Burned House",
+        "sections": [{"name": "Spawn", "item_count": 1}],
+        "map_locations": [
           {
-            "name": "Item",
-            "access_rules": [],
-            "item_count": 1
+            "map": "brutalisthouse_small",
+            "x": 240,
+            "y": 175
           }
-        ],
+        ]
+      },
+      {
+        "name": "Exit to Airport",
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {"map": "brutalisthouse_big", "x": 230, "y": 170}
         ]

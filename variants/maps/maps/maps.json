@@ -138,6 +138,30 @@
     "img": "variants/maps/images/maps/mirrorgasstation.png"
   },
   {
+    "name": "burnedhouse-1f",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/secondhouse-1f.png"
+  },
+  {
+    "name": "burnedhouse-b1",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/thehouse-b1.png"
+  },
+  {
+    "name": "overgrownhouse-1f",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/secondhouse-1f.png"
+  },
+  {
+    "name": "overgrownhouse-b1",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/thehouse-b1.png"
+  },
+  {
     "name": "emptyhouse-1f",
     "location_size": 12,
     "location_border_thickness": 1,

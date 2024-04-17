@@ -123,11 +123,12 @@
           },
           {
             "name": "Office",
-            "access_rules": [],
             "sections": [
               {
                 "name": "Exit to Daycare",
-                "access_rules": ["artifact_babybottle"],
+                "access_rules": [
+                  "artifact_babybottle,$not_has|artifact_baseball,$not_has|artifact_crayons,$not_has|artifact_snugs,$not_has|daycare_nightmareunleashed"
+                ],
                 "item_count": 1
               }
             ],
@@ -135,7 +136,6 @@
           },
           {
             "name": "Bedroom",
-            "access_rules": [],
             "sections": [
               {
                 "name": "Return from Daycare",
@@ -145,15 +145,28 @@
               }
             ],
             "map_locations": [{"map": "secondhouse-b1", "x": 140, "y": 60}]
+          },
+          {
+            "name": "Bookcase Passage",
+            "sections": [
+              {
+                "name": "Exit to Burned House",
+                "access_rules": ["artifact_milkshake"],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [{"map": "secondhouse-b1", "x": 160, "y": 110}]
           }
         ]
       },
       {
         "name": "Outside",
+        "access_rules": [
+          "@Emergency Exit/Exit to Second House,skull_blue"
+        ],
         "children": [
           {
             "name": "Passage",
-            "access_rules": [],
             "sections": [
               {
                 "name": "Exit to Gas Station",

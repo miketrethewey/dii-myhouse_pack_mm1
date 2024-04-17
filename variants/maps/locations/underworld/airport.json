@@ -19,14 +19,20 @@
         "sections": [
           {
             "name": "Exit to Second House",
-            "access_rules": ["artifact:14"],
-            "visibility_rules": ["artifact:14"],
+            "access_rules": ["$artifactCheck|second"],
+            "visibility_rules": ["$artifactCheck|second"],
+            "item_count": 1
+          },
+          {
+            "name": "Exit to Overgrown House",
+            "access_rules": ["$artifactCheck|overgrown"],
+            "visibility_rules": ["$artifactCheck|overgrown"],
             "item_count": 1
           },
           {
             "name": "Exit to Empty House",
-            "access_rules": ["$not_has|artifact|14"],
-            "visibility_rules": ["$not_has|artifact|14"],
+            "access_rules": ["$artifactCheck|empty"],
+            "visibility_rules": ["$artifactCheck|empty"],
             "hosted_item": "emptyhouse"
           }
         ],

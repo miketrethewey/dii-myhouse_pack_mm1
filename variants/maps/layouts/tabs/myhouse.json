@@ -115,6 +115,22 @@
       }
     },
     {
+      "title": "Burned House",
+      "icon": "images/icons/burnedhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["burnedhouse-1f", "burnedhouse-b1"]
+      }
+    },
+    {
+      "title": "Overgrown House",
+      "icon": "images/icons/overgrownhouse.png",
+      "content": {
+        "type": "map",
+        "maps": ["overgrownhouse-1f", "overgrownhouse-b1"]
+      }
+    },
+    {
       "title": "Empty House",
       "icon": "images/items/markers/emptyhouse.png",
       "content": {
