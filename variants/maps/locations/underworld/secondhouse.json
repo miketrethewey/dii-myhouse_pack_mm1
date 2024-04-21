@@ -228,7 +228,10 @@
       },
       {
         "name": "Outside",
-        "access_rules": ["@Emergency Exit/Exit to Second House","artifact_gamecontroller"],
+        "access_rules": [
+          "@Emergency Exit/Exit to Second House",
+          "artifact_gamecontroller"
+        ],
         "children": [
           {
             "name": "Passage",

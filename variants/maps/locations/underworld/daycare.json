@@ -42,12 +42,15 @@
           "@Office/Exit to Daycare,daycare_nightmareunleashed"
         ],
         "sections": [
-            {
-                "name": "Gate Key",
-                "hosted_item": "artifact_gatekey"
-              },
+          {
+            "name": "Gate Key",
+            "hosted_item": "artifact_gatekey"
+          },
           {"name": "Snugs", "hosted_item": "artifact_snugs"},
-          {"name":"Shrek","hosted_item": "daycare_nightmaredefeated"},
+          {
+            "name": "Shrek",
+            "hosted_item": "daycare_nightmaredefeated"
+          }
         ],
         "map_locations": [{"map": "daycare-outside", "x": 160, "y": 100}]
       },
