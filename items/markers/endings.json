@@ -7,6 +7,13 @@
     "codes": "ending,ending1"
   },
   {
+    "name": "Ending 1.5",
+    "type": "consumable",
+    "max_quantity": 1,
+    "img": "images/items/markers/hiddengrave.png",
+    "codes": "ending,endingsecret"
+  },
+  {
     "name": "Ending 2",
     "type": "consumable",
     "max_quantity": 1,

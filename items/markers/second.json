@@ -14,6 +14,14 @@
     "codes": "second_sinks"
   },
   {
+    "name": "Furnace to Brutalist",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 1,
+    "img": "images/items/markers/second_furnace.png",
+    "codes": "second_furnace"
+  },
+  {
     "name": "Return from Smooth Underhalls",
     "type": "consumable",
     "img": "images/items/keys/demon/orange.png",

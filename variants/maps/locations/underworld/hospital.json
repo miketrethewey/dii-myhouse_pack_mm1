@@ -1,7 +1,9 @@
 [
   {
     "name": "Hospital",
-    "access_rules": ["$not_has|hospital_aed,$not_has|emptyhouse"],
+    "access_rules": [
+      "$not_has|hospital_aed,$not_has|emptyhouse,$not_has|burned_artifact"
+    ],
     "children": [
       {
         "name": "Reception Desk",

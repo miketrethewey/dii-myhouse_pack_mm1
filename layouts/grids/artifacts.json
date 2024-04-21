@@ -7,6 +7,7 @@
       "note": "βSecond House",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_pop",
@@ -22,6 +23,7 @@
       "note": "♊Mirror House",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_ornament",
@@ -37,6 +39,7 @@
       "note": "🚼Daycare",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_baseball",
@@ -52,6 +55,7 @@
       "note": "🛁Bathhouse",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [["artifact_d20", "artifact_ring"]]
       }
     },
@@ -61,6 +65,7 @@
       "note": "🦴Brutalist House",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           ["artifact_pumpkin", "artifact_tuna"],
           ["artifact_frisbee"]
@@ -73,6 +78,7 @@
       "note": "✈️Airport",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [["artifact_medication"]]
       }
     },
@@ -82,6 +88,7 @@
       "note": "⛽Gas Station",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [["artifact_gamecontroller"]]
       }
     },
@@ -91,6 +98,7 @@
       "note": "🔥Burned House",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_teddybear",
@@ -104,6 +112,7 @@
       "title": "Normal Wall",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_baseball",
@@ -124,6 +133,7 @@
       "title": "Mirror Wall",
       "content": {
         "type": "itemgrid",
+        "item_margin": "2, 2",
         "rows": [
           [
             "artifact_snugs",

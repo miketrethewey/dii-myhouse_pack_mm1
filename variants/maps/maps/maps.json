@@ -1,5 +1,11 @@
 [
   {
+    "name": "overworld",
+    "location_size": 32,
+    "location_border_thickness": 1,
+    "img": "variants/maps/images/maps/overworld.png"
+  },
+  {
     "name": "thehouse-1f",
     "location_size": 12,
     "location_border_thickness": 1,

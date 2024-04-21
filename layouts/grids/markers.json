@@ -16,7 +16,13 @@
       "note": "βSecond House",
       "content": {
         "type": "itemgrid",
-        "rows": [["second_mirror", "second_sinks"]]
+        "rows": [
+          [
+            "second_mirror",
+            "second_sinks",
+            "second_furnace"
+          ]
+        ]
       }
     },
     {
@@ -25,7 +31,18 @@
       "note": "🚼Daycare",
       "content": {
         "type": "itemgrid",
-        "rows": [["daycare_nightmareunleashed"]]
+        "rows": [
+          ["daycare_nightmareunleashed", "artifact_gatekey"]
+        ]
+      }
+    },
+    {
+      "title": "",
+      "icon": "images/icons/airport.png",
+      "note": "Airport",
+      "content": {
+        "type": "itemgrid",
+        "rows": [["airport_skydiver"]]
       }
     },
     {

@@ -1,8 +1,16 @@
 [
   {
-    "name": "Shrek Missing",
-    "type": "toggle",
-    "img": "images/items/markers/daycare_nightmareunleashed.png",
-    "codes": "daycare_nightmareunleashed"
+    "name": "Shrek",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/markers/daycare_nightmareunleashed.png",
+        "codes": "daycare_nightmareunleashed"
+      },
+      {
+        "img": "images/items/markers/daycare_nightmaredefeated.png",
+        "codes": "daycare_nightmaredefeated"
+      }
+    ]
   }
 ]

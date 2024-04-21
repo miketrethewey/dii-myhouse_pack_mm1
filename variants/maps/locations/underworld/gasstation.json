@@ -7,12 +7,46 @@
         "name": "Tree",
         "sections": [
           {
-            "name": "Passage",
+            "name": "Ending 3",
             "access_rules": ["mirrorgasstation_treeheart"],
             "hosted_item": "ending3"
           }
         ],
-        "map_locations": [{"map": "gasstation", "x": 95, "y": 75}]
+        "map_locations": [
+          {"map": "overworld", "x": 234, "y": 528},
+          {"map": "gasstation", "x": 95, "y": 75}
+        ]
+      },
+      {
+        "name": "Sludgie Machine",
+        "sections": [
+          {
+            "name": "Baby",
+            "visibility_rules": ["difficulty_baby"],
+            "hosted_item": "sludgie_baby"
+          },
+          {
+            "name": "Easy",
+            "visibility_rules": ["difficulty_easy"],
+            "hosted_item": "sludgie_easy"
+          },
+          {
+            "name": "Medium",
+            "visibility_rules": ["difficulty_medium"],
+            "hosted_item": "sludgie_medium"
+          },
+          {
+            "name": "Hard",
+            "visibility_rules": ["difficulty_hard"],
+            "hosted_item": "sludgie_hard"
+          },
+          {
+            "name": "Nightmare",
+            "visibility_rules": ["difficulty_nightmare"],
+            "hosted_item": "sludgie_nightmare"
+          }
+        ],
+        "map_locations": [{"map": "gasstation", "x": 750, "y": 360}]
       },
       {
         "name": "Closet",

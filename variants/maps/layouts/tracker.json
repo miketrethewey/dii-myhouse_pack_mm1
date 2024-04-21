@@ -42,6 +42,14 @@
             },
             {
               "type": "group",
+              "header": "Settings",
+              "content": {
+                "type": "layout",
+                "key": "setting_grid"
+              }
+            },
+            {
+              "type": "group",
               "header": "Pinned Locations",
               "content": {
                 "type": "recentpins"

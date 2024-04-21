@@ -9,6 +9,7 @@
       "content": [
         {
           "type": "itemgrid",
+          "item_margin": "2, 2",
           "rows": [
             ["card_yellow", "card_red", "card_blue"],
             ["skull_yellow", "skull_red", "skull_blue"],
@@ -38,6 +39,7 @@
           "content": [
             {
               "type": "itemgrid",
+              "item_margin": "2, 2",
               "rows": [
                 [
                   "artifact_baseball",
@@ -55,6 +57,7 @@
             },
             {
               "type": "itemgrid",
+              "item_margin": "2, 2",
               "rows": [
                 [
                   "artifact_snugs",
@@ -74,21 +77,21 @@
         },
         {
           "type": "itemgrid",
+          "item_margin": "2, 2",
           "rows": [
             [
               "artifact_teddybear",
               "artifact_photo",
-              "artifact_book",
-              "ending1",
-              "ending2",
-              "ending3"
-            ]
+              "artifact_book"
+            ],
+            ["ending1", "endingsecret", "ending2", "ending3"]
           ]
         }
       ]
     },
     {
       "type": "itemgrid",
+      "item_margin": "2, 2",
       "rows": [
         [
           "first_supercharge",

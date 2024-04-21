@@ -21,11 +21,7 @@ end
 function artifactCheck(house)
     house = house or "empty"
     ret = "empty"
-    if has("artifact_book") or
-        has("artifact_photo") or
-        has("artifact_teddybear") then
-        ret = "overgrown"
-    end
+
     if has("artifact_pop") and
         has("artifact_milkshake") and
         has("artifact_ring") and
@@ -36,6 +32,13 @@ function artifactCheck(house)
         has("artifact_baseball") then
         ret = "second"
     end
+
+    if has("artifact_book") or
+        has("artifact_photo") or
+        has("artifact_teddybear") then
+        ret = "overgrown"
+    end
+
     if has("artifact_crayons") and
         has("artifact_rubberduck") and
         has("artifact_medication") and

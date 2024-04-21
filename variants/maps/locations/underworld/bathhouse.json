@@ -30,7 +30,10 @@
       {
         "name": "Bathhouse: Exit to Brutalist House",
         "sections": [{"name": "Exit", "item_count": 1}],
-        "map_locations": [{"map": "bathhouse", "x": 390, "y": 0}]
+        "map_locations": [
+          {"map": "overworld", "x": 272, "y": 488},
+          {"map": "bathhouse", "x": 390, "y": 0}
+        ]
       }
     ]
   }

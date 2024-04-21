@@ -6,24 +6,49 @@
       "@Emergency Exit/Exit to Overgrown House",
       "emptyhouse"
     ],
-    "sections": [
+    "children": [
       {
-        "name": "Ending 1",
-        "hosted_item": "ending1",
-        "map_locations": [
-          {"map": "emptyhouse-1f", "x": 95, "y": 75},
-          {"map": "overgrownhouse-1f", "x": 95, "y": 75}
-        ]
+        "name": "Passage",
+        "sections": [
+          {
+            "name": "Hidden Gravesite",
+            "access_rules": ["@Emergency Exit/Exit to Overgrown House"],
+            "hosted_item": "endingsecret"
+          }
+        ],
+        "map_locations": [{"map": "overgrownhouse-1f", "x": 20, "y": 80}]
       },
       {
         "name": "Exit to Smooth Underhalls",
-        "access_rules": ["skull_blue"],
-        "item_count": 1
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": ["skull_blue"],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "emptyhouse-1f", "x": 200, "y": 160},
+          {"map": "overgrownhouse-1f", "x": 200, "y": 160}
+        ]
+      },
+      {
+        "name": "Ending",
+        "sections": [
+          {"name": "Ending 1", "hosted_item": "ending1"},
+          {
+            "name": "Ending 1.5",
+            "access_rules": ["@Emergency Exit/Exit to Overgrown House"],
+            "hosted_item": "endingsecret"
+          }
+        ],
+        "map_locations": [
+          {"map": "overworld", "x": 1008, "y": 528},
+          {"map": "overworld", "x": 234, "y": 784},
+          {"map": "emptyhouse-1f", "x": 0, "y": 0},
+          {"map": "overgrownhouse-1f", "x": 0, "y": 0}
+        ]
       }
-    ],
-    "map_locations": [
-      {"map": "emptyhouse-1f", "x": 185, "y": 125},
-      {"map": "overgrownhouse-1f", "x": 185, "y": 125}
     ]
   }
 ]

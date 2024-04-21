@@ -53,27 +53,36 @@
             "name": "Exit to Underhalls",
             "sections": [
               {
-                "name": "Item",
+                "name": "Exit",
                 "access_rules": ["card_blue"],
                 "item_count": 1
               }
             ],
-            "map_locations": [{"map": "thehouse-1f", "x": 200, "y": 160}]
+            "map_locations": [
+              {"map": "overworld", "x": 16, "y": 232},
+              {"map": "thehouse-1f", "x": 200, "y": 160}
+            ]
           }
-        ],
-        "map_locations": [{"map": "thehouse-1f", "x": 0, "y": 0}]
+        ]
       },
       {
         "name": "Spawn",
         "sections": [
-          {"name": "Initial Spawn", "item_count": 1},
+          {
+            "name": "Initial Spawn",
+            "access_rules": ["$not_has|first_supercharge"],
+            "item_count": 1
+          },
           {
             "name": "Return from Underhalls",
             "access_rules": ["underhalls_card_blue"],
             "hosted_item": "underhalls_exit"
           }
         ],
-        "map_locations": [{"map": "thehouse-1f", "x": 185, "y": 125}]
+        "map_locations": [
+          {"map": "overworld", "x": 16, "y": 16},
+          {"map": "thehouse-1f", "x": 185, "y": 125}
+        ]
       }
     ]
   }

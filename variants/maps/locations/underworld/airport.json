@@ -1,8 +1,18 @@
 [
   {
     "name": "✈️Airport",
-    "access_rules": ["@Exit to Airport/Item"],
+    "access_rules": ["@Exit to Airport/Exit"],
     "children": [
+      {
+        "name": "Shop",
+        "sections": [
+          {
+            "name": "Bloodstained Heart Shirt",
+            "hosted_item": "megaarmor"
+          }
+        ],
+        "map_locations": [{"map": "airport-1f", "x": 115, "y": 110}]
+      },
       {
         "name": "Women's Restroom",
         "sections": [
@@ -21,7 +31,7 @@
             "name": "Exit to Second House",
             "access_rules": ["$artifactCheck|second"],
             "visibility_rules": ["$artifactCheck|second"],
-            "item_count": 1
+            "hosted_item": "airport_skydiver"
           },
           {
             "name": "Exit to Overgrown House",
@@ -36,7 +46,22 @@
             "hosted_item": "emptyhouse"
           }
         ],
-        "map_locations": [{"map": "airport-plane", "x": 115, "y": 90}]
+        "map_locations": [
+          {"map": "overworld", "x": 784, "y": 488},
+          {
+            "map": "overworld",
+            "x": 784,
+            "y": 528,
+            "restrict_visibility_rules": ["$artifactCheck|overgrown"]
+          },
+          {
+            "map": "overworld",
+            "x": 16,
+            "y": 784,
+            "restrict_visibility_rules": ["@Exit to Airport/Exit,$artifactCheck|empty"]
+          },
+          {"map": "airport-plane", "x": 115, "y": 90}
+        ]
       }
     ]
   }

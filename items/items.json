@@ -121,5 +121,69 @@
     "loop": true,
     "img": "images/items/inventory/bfg9000.png",
     "codes": "bfg9000"
+  },
+  {
+    "name": "Armor",
+    "type": "consumable",
+    "max_quantity": 1,
+    "min_quantity": 0,
+    "img": "images/items/inventory/armor.png",
+    "codes": "armor"
+  },
+  {
+    "name": "Mega Armor",
+    "type": "consumable",
+    "max_quantity": 1,
+    "min_quantity": 0,
+    "img": "images/items/inventory/megaarmor.png",
+    "codes": "megaarmor"
+  },
+  {
+    "name": "Sludgie (Baby)",
+    "type": "consumable",
+    "max_quantity": 5,
+    "min_quantity": 0,
+    "img": "images/items/inventory/supercharge_green.png",
+    "codes": "sludgie_baby"
+  },
+  {
+    "name": "Sludgie (Easy)",
+    "type": "consumable",
+    "max_quantity": 4,
+    "min_quantity": 0,
+    "img": "images/items/markers/first_supercharge.png",
+    "codes": "sludgie_easy"
+  },
+  {
+    "name": "Sludgie (Medium)",
+    "type": "consumable",
+    "max_quantity": 3,
+    "min_quantity": 0,
+    "img": "images/items/inventory/supercharge_purple.png",
+    "codes": "sludgie_medium"
+  },
+  {
+    "name": "Sludgie (Hard)",
+    "type": "consumable",
+    "max_quantity": 2,
+    "min_quantity": 0,
+    "img": "images/items/inventory/supercharge_orange.png",
+    "codes": "sludgie_hard"
+  },
+  {
+    "name": "Sludgie (Nightmare)",
+    "type": "consumable",
+    "max_quantity": 5,
+    "min_quantity": 0,
+    "img": "images/items/inventory/supercharge_red.png",
+    "codes": "sludgie_nightmare"
+  },
+  {
+    "name": "Sludgie (Mirror)",
+    "type": "consumable",
+    "max_quantity": 1,
+    "min_quantity": 0,
+    "img": "images/items/markers/first_supercharge.png",
+    "codes": "sludgie_mirror"
   }
 ]

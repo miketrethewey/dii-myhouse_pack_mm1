@@ -16,7 +16,20 @@
             "hosted_item": "ending2"
           }
         ],
-        "map_locations": [{"map": "mirrorgasstation", "x": 1300, "y": 80}]
+        "map_locations": [
+          {"map": "overworld", "x": 490, "y": 528},
+          {"map": "mirrorgasstation", "x": 1300, "y": 80}
+        ]
+      },
+      {
+        "name": "eigdulS Machine",
+        "sections": [
+          {
+            "name": "eigdulS",
+            "hosted_item": "sludgie_mirror"
+          }
+        ],
+        "map_locations": [{"map": "mirrorgasstation", "x": 650, "y": 360}]
       },
       {
         "name": "Closet",

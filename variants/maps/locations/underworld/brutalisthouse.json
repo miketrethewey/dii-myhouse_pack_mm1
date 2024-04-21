@@ -3,9 +3,19 @@
     "name": "☠️Brutalist House",
     "access_rules": [
       "@Ducky Bathroom/Exit to Flooded House",
-      "@Furnace Room/Exit to Brutalist House"
+      "@Furnace Room/Exit to Brutalist House",
+      "@Burned Furnace Room/Exit to Brutalist House",
+      "burned_artifact"
     ],
     "children": [
+      {
+        "name": "Arrive from Bathhouse",
+        "sections": [{"name": "Entrance", "item_count": 1}],
+        "map_locations": [
+          {"map": "overworld", "x": 528, "y": 272},
+          {"map": "brutalisthouse_big", "x": 260, "y": 140}
+        ]
+      },
       {
         "name": "Ammo Closet",
         "sections": [
@@ -63,6 +73,7 @@
         "name": "Arrive from Burned House",
         "sections": [{"name": "Spawn", "item_count": 1}],
         "map_locations": [
+          {"map": "overworld", "x": 560, "y": 272},
           {
             "map": "brutalisthouse_small",
             "x": 240,
@@ -72,8 +83,10 @@
       },
       {
         "name": "Exit to Airport",
-        "sections": [{"name": "Item", "item_count": 1}],
+        "sections": [{"name": "Exit", "item_count": 1}],
         "map_locations": [
+          {"map": "overworld", "x": 528, "y": 488},
+          {"map": "overworld", "x": 784, "y": 272},
           {"map": "brutalisthouse_big", "x": 230, "y": 170}
         ]
       }

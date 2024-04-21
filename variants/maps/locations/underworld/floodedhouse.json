@@ -8,6 +8,10 @@
         "item_count": 1
       }
     ],
-    "map_locations": [{"map": "floodedhouse-b1", "x": 100, "y": 60}]
+    "map_locations": [
+      {"map": "overworld", "x": 16, "y": 488},
+      {"map": "overworld", "x": 272, "y": 272},
+      {"map": "floodedhouse-b1", "x": 100, "y": 60}
+    ]
   }
 ]

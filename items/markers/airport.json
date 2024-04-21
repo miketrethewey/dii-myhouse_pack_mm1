@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Skydiver",
+    "type": "toggle",
+    "img": "images/items/markers/airport_skydiver.png",
+    "codes": "airport_skydiver"
+  }
+]

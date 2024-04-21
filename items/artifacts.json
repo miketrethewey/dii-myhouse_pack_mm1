@@ -136,6 +136,14 @@
     "codes": "artifact,artifact_snugs"
   },
   {
+    "name": "Gate Key",
+    "type": "toggle",
+    "note": "Daycare",
+    "loop": true,
+    "img": "images/items/artifacts/hospitalkey.png",
+    "codes": "artifact_gatekey"
+  },
+  {
     "name": "Photograph",
     "type": "toggle",
     "note": "Burned House",

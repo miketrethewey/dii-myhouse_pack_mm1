@@ -1,7 +1,10 @@
 [
   {
     "name": "🔥Burned House",
-    "access_rules": ["@Bookcase Passage/Exit to Burned House"],
+    "access_rules": [
+      "@Bookcase Passage/Exit to Burned House",
+      "burned_artifact"
+    ],
     "children": [
       {
         "name": "Within",
@@ -29,7 +32,7 @@
             "map_locations": [{"map": "burnedhouse-1f", "x": 105, "y": 35}]
           },
           {
-            "name": "Furnace Room",
+            "name": "Burned Furnace Room",
             "access_rules": [
               "artifact_book,artifact_photo,artifact_teddybear"
             ],
@@ -39,7 +42,10 @@
                 "item_count": 1
               }
             ],
-            "map_locations": [{"map": "burnedhouse-b1", "x": 135, "y": 75}]
+            "map_locations": [
+              {"map": "overworld", "x": 528, "y": 754},
+              {"map": "burnedhouse-b1", "x": 135, "y": 75}
+            ]
           }
         ]
       },
